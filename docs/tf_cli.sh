@@ -5,6 +5,8 @@ terraform version
 terraform -help
 # Initialize Terraform Working Directory
 terraform init
+# Upgrading Terraform Providers
+terraform init -upgrade
 # Validating a Configuration
 terraform validate
 # Generating a Terraform Plan
@@ -23,7 +25,8 @@ terraform apply myplan
 # Destroying saved plan
 terraform destroy -auto-approve myplan
 
-# Additional commands
+# View installed and required providers
 terraform providers
+# Formatting Terraform code
 terraform fmt
 

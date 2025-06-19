@@ -1,4 +1,4 @@
-# https://github.com/btkrausen/hashicorp/tree/master/terraform
+https://github.com/btkrausen/hashicorp/tree/master/terraform
 
 # Template
 <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
