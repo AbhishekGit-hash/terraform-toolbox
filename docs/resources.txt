@@ -1,3 +1,5 @@
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
+
 resource "aws_s3_bucket" "my-new-S3-bucket" {
   bucket = "my-new-tf-test-bucket-${random_id.randomness.hex}"
 
